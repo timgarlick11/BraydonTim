@@ -1,0 +1,10 @@
+/* line 4, ../sass/styles.scss */
+body {
+  color: #555;
+}
+/* line 7, ../sass/styles.scss */
+body .test {
+  height: 300px;
+  width: 500px;
+  background: green;
+}
