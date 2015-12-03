@@ -1,0 +1,13 @@
+$theme-color: green;
+
+
+body {
+	color: #555;
+
+	.tester {
+		width: 500px;
+		height: 800px;
+		background: $theme-color;
+	}
+
+}
