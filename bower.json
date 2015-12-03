@@ -1,0 +1,25 @@
+{
+  "name": "braydontimfoodcalendar",
+  "description": "coding practice",
+  "main": "index.js",
+  "authors": [
+    "Tim and Braydon"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Maninacan/BraydonTim",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.8",
+    "angular": "~1.4.8",
+    "foundation-sites": "~6.0.5",
+    "jquery": "~2.1.4",
+    "what-input": "~1.1.3"
+  }
+}
