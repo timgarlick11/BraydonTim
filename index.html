@@ -3,14 +3,52 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>The HTML5 Herald</title>
+	<title>Amazing Recipe App</title>
 	<link rel="stylesheet" href="build/bundle.css">
 </head>
 
 <body>
+	<div class="row">
+		<div class="large-12 columns fixed">
+			<div class="fixed">
+				<nav class="top-bar">
+					<ul class="title-area">
+						<li class="name"></li>
+						<li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+					</ul>
+					<section class="top-bar-section"> 
+						<ul class="left">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="recipes.html">Recipes</a></li>
+							 <li><a href="about.html">About</a></li>
+
+							 <ul class="right">
+            <li class="has-form">
+              <form>
+                <div class="row collapse">
+                  <div class="small-8 columns">
+                    <input type="text">
+                  </div>
+                  <div class="small-4 columns"> <a href="#" class="button">Search</a> </div>
+                </div>
+              </form>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </div><!-- end fixed -->
+  </div><!-- end large12 --> 
+</div>
+<div class="row">
+  <div class="large-4 columns"><a href="index.html"><img src="img/logo.png" alt="images of food"></a></div>
+  <div class="large-6 large-offset-2 columns"><img src="img/animals.jpg" alt="image of recipe" class="show-for-medium-up"></div>
+</div>
+<div class="row">
+  <div class="large-12 columns">
 <div class="tester"></div>
 
 
+<script src="bower_components/foundation-sites/foundation.min.js"></script>
 <script src="bower_components/angular/angular.min.js"></script>
 <script src="bower_components/angular-route/angular-route.min.js"></script>
 </body>
