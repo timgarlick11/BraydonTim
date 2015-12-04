@@ -1,0 +1,27 @@
+{
+  "name": "braydontimfoodcalendar",
+  "version": "1.0.0",
+  "description": "coding practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timgarlick11/BraydonTim.git"
+  },
+  "author": "Tim and Braydon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timgarlick11/BraydonTim/issues"
+  },
+  "homepage": "https://github.com/timgarlick11/BraydonTim#readme",
+  
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "gulp": "^3.9.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-sass": "^2.1.0"
+
+  }
+}
